@@ -1,2 +1,5 @@
 # chrome-extension-date-convert
-Chrome extension Date convert sample
+
+## 概要
+
+* 日付フォーマットの文字列をミリ秒形式に変換するChrome拡張です。

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Date Convert",
+  "version": "1.0",
+  "description": "Date Convert",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "date.png"
+  },
+  "icons" : {
+    "32": "date.png",
+    "128": "date.png"
+  }
+}
