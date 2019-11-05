@@ -1,34 +1,34 @@
 # chrome-extension-date-convert
 
-## Overview
+## 概要
 
-* A Chrome extension that converts date format strings to millisecond format.
+* 日付フォーマットの文字列をミリ秒形式に変換するChrome拡張です。
 
-## Used library
+## 使用ライブラリ
 
 * moment.js
 
-## Usage
+## 動作確認
 
-### 1. Download Sample
+### 1. サンプルのダウンロード
 
 ```bash
 git clone git@github.com:yasu-s/chrome-extension-date-convert.git
 ```
 
-### 2. Install extensions
+### 2. 拡張機能のインストール
 
-1. Launch Chrome.
-1. Transition to extensions.
-1. Turn on "Developer mode".
-1. Click “Load unpacked”
-1. Select "chrome-extension-date-convert/src" folder.
+1. Chromeを起動
+1. 拡張機能に遷移
+1. 「デベロッパーモード」をON
+1. 「パッケージ化されていない拡張機能を読み込む」をクリック
+1. 「chrome-extension-date-convert/src」フォルダを選択
 
-## Execution result
+## 実行結果
 
 ![chrome-ext](https://user-images.githubusercontent.com/2668146/68124872-b117b480-ff53-11e9-996c-ff2cb59d45b4.gif)
 
-## Sample Source
+## サンプルソース
 
 ### src/manifest.json
 
@@ -86,6 +86,6 @@ txtDate.addEventListener('keyup', function(){
 });
 ```
 
-## URL
+## 参考URL
 
 * [Manifest File Format](https://developer.chrome.com/extensions/manifest)
